@@ -45,8 +45,8 @@ DOC/lzma.txt
 
 How to compile
 --------------
-To compile sources you need Visual C++ 6.0.
-For compiling some files you also need 
+To compile sources you need Visual C++ 6.0 or above.
+For compiling some files, if you have Visual C++ 6.0, you also need 
 new Platform SDK from Microsoft' Site:
 http://www.microsoft.com/msdownload/platformsdk/sdkupdate/psdk-full.htm
 or
@@ -67,6 +67,10 @@ Also you need Microsoft Macro Assembler:
   - ml.exe for x86 
   - ml64.exe for AMD64
 You can use ml.exe from Windows SDK for Windows Vista or some other version.
+
+One way is to install VC Express 2008, then run the "visual studio command prompt", navigate
+to folder CPP\7zip and execute
+$ NMAKE
 
 
 Compiling under Unix/Linux
